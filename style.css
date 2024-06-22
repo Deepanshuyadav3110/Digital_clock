@@ -1,0 +1,40 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    background:url(https://free-3dtextureshd.com/wallpapers/Abstract/Desktop%20version/1920%20x%201080/44_Abstract_Background_1920x1080px.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+.center{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%);
+    border:none;
+    background:transparent;
+    backdrop-filter: blur(.5rem);
+    box-shadow: 0 0 6rem ;
+    width:60%;
+    height:40%
+}
+.banner{
+    margin-top:2rem;
+    text-align: center;
+    font-size:2rem;
+    color:white
+}
+#clock{
+    color:white;
+    width:80%;
+    height:50%;
+    margin-top:1rem;
+    margin-left:2rem;
+    text-align: center;
+    font-size: 3rem;
+}
